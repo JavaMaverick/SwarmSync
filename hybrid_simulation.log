@@ -1,0 +1,41 @@
+2025-03-24 22:06:50,651 - INFO - Initializing hybrid drone mesh network simulation...
+2025-03-24 22:06:50,653 - INFO - Created environment with 20 drones, 20 obstacles, and 5 targets
+2025-03-24 22:06:50,653 - INFO - Setting up visualization...
+2025-03-24 22:06:51,409 - INFO - Starting simulation...
+2025-03-24 22:06:52,528 - INFO - Frame 0: 20 active drones, 5 targets remaining
+2025-03-24 22:06:52,692 - INFO - Frame 0: 20 active drones, 5 targets remaining
+2025-03-24 22:07:00,142 - INFO - Frame 100: 20 active drones, 5 targets remaining
+2025-03-24 22:07:08,303 - INFO - Frame 200: 20 active drones, 6 targets remaining
+2025-03-24 22:07:16,433 - INFO - Frame 300: 20 active drones, 7 targets remaining
+2025-03-24 22:07:25,247 - INFO - Frame 400: 20 active drones, 9 targets remaining
+2025-03-24 22:07:33,789 - INFO - Frame 500: 20 active drones, 9 targets remaining
+2025-03-24 22:07:42,028 - INFO - Frame 600: 20 active drones, 9 targets remaining
+2025-03-24 22:07:51,020 - INFO - Frame 700: 20 active drones, 9 targets remaining
+2025-03-24 22:08:00,106 - INFO - Frame 800: 20 active drones, 9 targets remaining
+2025-03-24 22:08:09,204 - INFO - Frame 900: 20 active drones, 9 targets remaining
+2025-03-24 22:08:18,834 - INFO - Frame 0: 20 active drones, 10 targets remaining
+2025-03-24 22:08:18,885 - INFO - Frame 0: 20 active drones, 10 targets remaining
+2025-03-24 22:08:28,586 - INFO - Frame 100: 20 active drones, 11 targets remaining
+2025-03-24 22:08:37,776 - INFO - Frame 200: 20 active drones, 12 targets remaining
+2025-03-24 22:08:47,482 - INFO - Frame 300: 20 active drones, 13 targets remaining
+2025-03-24 22:08:56,405 - INFO - Frame 400: 20 active drones, 14 targets remaining
+2025-03-24 22:09:05,415 - INFO - Frame 500: 20 active drones, 14 targets remaining
+2025-03-24 22:09:14,506 - INFO - Frame 600: 20 active drones, 14 targets remaining
+2025-03-24 22:09:24,221 - INFO - Frame 700: 20 active drones, 16 targets remaining
+2025-03-24 22:09:33,416 - INFO - Frame 800: 20 active drones, 17 targets remaining
+2025-03-24 22:09:42,391 - INFO - Frame 900: 20 active drones, 17 targets remaining
+2025-03-24 22:09:51,589 - INFO - Frame 0: 20 active drones, 17 targets remaining
+2025-03-24 22:09:51,634 - INFO - Frame 0: 20 active drones, 17 targets remaining
+2025-03-24 22:10:01,008 - INFO - Frame 100: 20 active drones, 18 targets remaining
+2025-03-24 22:10:10,541 - INFO - Frame 200: 20 active drones, 18 targets remaining
+2025-03-24 22:10:21,053 - INFO - Frame 300: 20 active drones, 20 targets remaining
+2025-03-24 22:10:31,924 - INFO - Frame 400: 20 active drones, 19 targets remaining
+2025-03-24 22:10:42,594 - INFO - Frame 500: 20 active drones, 19 targets remaining
+2025-03-24 22:10:53,782 - INFO - Frame 600: 20 active drones, 19 targets remaining
+2025-03-24 22:11:05,007 - INFO - Frame 700: 20 active drones, 19 targets remaining
+2025-03-24 22:11:15,522 - INFO - Frame 800: 20 active drones, 19 targets remaining
+2025-03-24 22:11:25,963 - INFO - Frame 900: 20 active drones, 19 targets remaining
+2025-03-24 22:11:37,599 - INFO - Frame 0: 20 active drones, 17 targets remaining
+2025-03-24 22:11:37,633 - INFO - Frame 0: 20 active drones, 17 targets remaining
+2025-03-24 22:11:49,394 - INFO - Frame 100: 20 active drones, 17 targets remaining
+2025-03-24 22:12:01,197 - INFO - Frame 200: 20 active drones, 18 targets remaining
