@@ -134,3 +134,44 @@ class HybridDrone(Drone):
         self.avoid_obstacles()
         self.move(dt)
 
+
+
+#update 1
+def detect_targets(self, targets: List[Target]):
+    sensor_range = 75.0
+    for target in targets:
+        if self.position.distance_to(target.position) <= sensor_range:
+            new_target = Target(
+                id=target.id, position=target.position, priority=target.priority,
+                detected_by=self.id, timestamp=time.time()
+            )
+            if target.id not in self.known_targets:
+                self.known_targets[target.id] = new_target
+                self.target_detection_times[target.id] = time.time()  # New attribute
+            self.lay_pheromone_trail(target)
+
+
+def calculate_swarm_cohesion(self, drones: Dict[str, 'Drone']) -> float:
+    active_drones = [d for d in drones.values() if d.is_active]
+    if not active_drones:
+        return 0.0
+    centroid = Position(
+        x=sum(d.position.x for d in active_drones) / len(active_drones),
+        y=sum(d.position.y for d in active_drones) / len(active_drones),
+        z=sum(d.position.z for d in active_drones) / len(active_drones)
+    )
+    avg_distance = sum(d.position.distance_to(centroid) for d in active_drones) / len(active_drones)
+    return avg_distance
+
+
+def avoid_obstacles(self):
+    self.obstacle_avoidance_attempts = getattr(self, 'obstacle_avoidance_attempts', 0)
+    self.obstacle_avoidance_success = getattr(self, 'obstacle_avoidance_success', 0)
+    for obstacle in self.known_obstacles.values():
+        distance = self.position.distance_to(obstacle.position)
+        if distance < obstacle.radius + 10:
+            self.obstacle_avoidance_attempts += 1
+            direction_x = self.position.x - obstacle.position.x
+            # ... (existing logic)
+            self.limit_velocity()
+            self.obstacle_avoidance_success += 1  # Success if velocity adjusted
