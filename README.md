@@ -2,7 +2,7 @@
 
 ## Overview
 
-SwarmSync is a Python-based simulation framework for adaptive 3D drone mesh networks, combining ant-inspired pheromone trails and bee-inspired waggle dance communication to optimize network connectivity, target coverage, and energy efficiency. This project implements the hybrid bio-inspired approach described in the research paper *"SwarmSync: A Hybrid Bee-Ant Bio-Inspired Framework for Adaptive 3D Drone Mesh Networks"* by Priyanshu Singh et al. It simulates a swarm of 20 drones in a 1000x1000x100m³ environment with dynamic targets and static obstacles, comparing the hybrid model against an ant-inspired baseline.
+SwarmSync is a Python-based simulation framework for adaptive 3D drone mesh networks, combining ant-inspired pheromone trails and bee-inspired waggle dance communication to optimize network connectivity, target coverage, and energy efficiency. This project implements the hybrid bio-inspired approach described in the research paper *"SwarmSync: A Hybrid Bee-Ant Bio-Inspired Framework for Adaptive 3D Drone Mesh Networks"* . It simulates a swarm of 20 drones in a 1000x1000x100m³ environment with dynamic targets and static obstacles, comparing the hybrid model against an ant-inspired baseline.
 
 The simulation visualizes drone behaviors, tracks performance metrics (e.g., target coverage, swarm cohesion, network connectivity, pheromone trail density), and generates comparative plots. It is designed for researchers and developers interested in swarm intelligence, drone coordination, and bio-inspired algorithms.
 
